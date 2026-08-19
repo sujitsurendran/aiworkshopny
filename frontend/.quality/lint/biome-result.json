@@ -1,0 +1,24 @@
+{
+  "tool": "biome",
+  "status": "failed",
+  "errors": 0,
+  "warnings": 0,
+  "total_findings": 0,
+  "inline_findings": 0,
+  "remaining_findings": 0,
+  "files": [],
+  "report_path": "/repos/aiworkshopny/frontend/.quality/lint/biome-result.json",
+  "reason": "npm ERR! canceled\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /root/.npm/_logs/2026-08-19T00_21_10_890Z-debug-0.log",
+  "command": [
+    "npx",
+    "--no-install",
+    "@biomejs/biome",
+    "check",
+    "/app/data/projects/30bcfbafbfd2/output/a7b85af4c1d7/repos/aiworkshopny/frontend",
+    "--reporter=json"
+  ],
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "npm ERR! canceled\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /root/.npm/_logs/2026-08-19T00_21_10_890Z-debug-0.log\n",
+  "all_findings": []
+}

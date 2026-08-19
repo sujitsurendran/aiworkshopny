@@ -1,0 +1,5 @@
+{
+  "tool": "yamllint",
+  "status": "skipped_not_applicable",
+  "report_path": "/repos/aiworkshopny/backend/.quality/lint/yamllint-result.json"
+}

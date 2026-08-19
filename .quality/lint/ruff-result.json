@@ -1,0 +1,57 @@
+{
+  "tool": "ruff",
+  "status": "issues_found",
+  "errors": 2,
+  "warnings": 0,
+  "total_findings": 2,
+  "inline_findings": 2,
+  "remaining_findings": 0,
+  "files": [
+    {
+      "path": "/repos/aiworkshopny/backend/app/main.py",
+      "findings": [
+        {
+          "msg": "Module level import not at top of file",
+          "line": 61,
+          "column": 1,
+          "code": "E402"
+        },
+        {
+          "msg": "Import block is un-sorted or un-formatted",
+          "line": 61,
+          "column": 1,
+          "code": "I001"
+        }
+      ]
+    }
+  ],
+  "report_path": "/repos/aiworkshopny/.quality/lint/ruff-result.json",
+  "command": [
+    "/usr/local/bin/ruff",
+    "check",
+    "/app/data/projects/30bcfbafbfd2/output/a7b85af4c1d7/repos/aiworkshopny",
+    "--output-format",
+    "json"
+  ],
+  "exit_code": 1,
+  "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 11,\n      \"row\": 61\n    },\n    \"filename\": \"/app/data/projects/30bcfbafbfd2/output/a7b85af4c1d7/repos/aiworkshopny/backend/app/main.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 61\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 61,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 11,\n      \"row\": 61\n    },\n    \"filename\": \"/app/data/projects/30bcfbafbfd2/output/a7b85af4c1d7/repos/aiworkshopny/backend/app/main.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"import sys\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 62\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 61\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 61\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 61,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+  "stderr": "",
+  "all_findings": [
+    {
+      "path": "/repos/aiworkshopny/backend/app/main.py",
+      "line": 61,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/aiworkshopny/backend/app/main.py",
+      "line": 61,
+      "column": 1,
+      "code": "I001",
+      "msg": "Import block is un-sorted or un-formatted",
+      "severity": "error"
+    }
+  ]
+}

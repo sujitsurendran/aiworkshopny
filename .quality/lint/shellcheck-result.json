@@ -1,0 +1,6 @@
+{
+  "tool": "shellcheck",
+  "status": "unavailable",
+  "reason": "shellcheck is not installed or not configured",
+  "report_path": "/repos/aiworkshopny/.quality/lint/shellcheck-result.json"
+}
